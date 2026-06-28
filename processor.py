@@ -7,3 +7,4 @@ def filter_data(data):
 data_mentah = ambil_data()
 data_bersih = filter_data(data_mentah)
 print(data_bersih)
+print("testing")
