@@ -11,7 +11,7 @@ default_args = {
 }
 
 with DAG(
-    'dag_isi_data_mart',
+    'dag_isi_data_mart_testing',
     default_args=default_args,
     schedule_interval=None,
     catchup=False
