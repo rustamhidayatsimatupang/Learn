@@ -1,0 +1,21 @@
+name: 'dbt_project'
+version: '1.0.0'
+config-version: 2
+
+# Nama profile ini HARUS SAMA dengan baris teratas di ~/.dbt/profiles.yml
+profile: 'dbt-project'
+
+source-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+data-paths: ["seeds"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"
+
+models:
+  dbt_project:
+    +materialized: view
