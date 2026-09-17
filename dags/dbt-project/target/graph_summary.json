@@ -1,0 +1,1 @@
+{"_invocation_id": "be6f842d-3559-415e-9e2d-4a104d450915", "linked": {"0": {"name": "model.dbt_project.my_first_model", "type": "model"}, "1": {"name": "model.dbt_project.stg_transactions", "type": "model", "succ": [3]}, "2": {"name": "seed.dbt_project.raw_transactions", "type": "seed", "succ": [1]}, "3": {"name": "model.dbt_project.mart_daily_sales", "type": "model"}}}

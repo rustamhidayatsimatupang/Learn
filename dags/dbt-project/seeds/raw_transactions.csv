@@ -1,0 +1,6 @@
+transaction_id,transaction_date,product,amount
+1,2023-10-01,Laptop,15000000
+2,2023-10-01,Mouse,250000
+3,2023-10-02,Keyboard,800000
+4,2023-10-02,Monitor,3000000
+5,2023-10-02,Mouse,250000
