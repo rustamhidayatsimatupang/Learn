@@ -1,0 +1,53 @@
+[2026-09-17T07:55:42.426+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-17T07:55:42.449+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_retail_pipeline.dbt_run manual__2026-09-17T07:55:33.507876+00:00 [queued]>
+[2026-09-17T07:55:42.459+0000] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_retail_pipeline.dbt_run manual__2026-09-17T07:55:33.507876+00:00 [queued]>
+[2026-09-17T07:55:42.460+0000] {taskinstance.py:2856} INFO - Starting attempt 1 of 2
+[2026-09-17T07:55:42.474+0000] {taskinstance.py:2879} INFO - Executing <Task(BashOperator): dbt_run> on 2026-09-17 07:55:33.507876+00:00
+[2026-09-17T07:55:42.481+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1713) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-09-17T07:55:42.483+0000] {standard_task_runner.py:72} INFO - Started process 1714 to run task
+[2026-09-17T07:55:42.483+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dbt_retail_pipeline', 'dbt_run', 'manual__2026-09-17T07:55:33.507876+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/dbt_retail_pipeline.py', '--cfg-path', '/tmp/tmpodn7w4d4']
+[2026-09-17T07:55:42.484+0000] {standard_task_runner.py:105} INFO - Job 90: Subtask dbt_run
+[2026-09-17T07:55:42.541+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_retail_pipeline.dbt_run manual__2026-09-17T07:55:33.507876+00:00 [running]> on host b5c1d8ce61d3
+[2026-09-17T07:55:42.658+0000] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='dbt_retail_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-09-17T07:55:33.507876+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-17T07:55:33.507876+00:00'
+[2026-09-17T07:55:42.659+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-09-17T07:55:42.678+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-09-17T07:55:42.679+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dags/dbt-project && dbt run --select +mart_daily_sales --profiles-dir /opt/***/dags/dbt-project']
+[2026-09-17T07:55:42.694+0000] {subprocess.py:86} INFO - Output:
+[2026-09-17T07:55:45.966+0000] {subprocess.py:93} INFO - [0m07:55:45  Running with dbt=1.12.5
+[2026-09-17T07:55:46.067+0000] {subprocess.py:93} INFO - [0m07:55:46  [[33mWARNING[0m]: Deprecated functionality
+[2026-09-17T07:55:46.068+0000] {subprocess.py:93} INFO - The `source-paths` config has been renamed to `model-paths`. Please update your
+[2026-09-17T07:55:46.068+0000] {subprocess.py:93} INFO - `dbt_project.yml` configuration to reflect this change.
+[2026-09-17T07:55:46.069+0000] {subprocess.py:93} INFO - [0m07:55:46  [[33mWARNING[0m]: Deprecated functionality
+[2026-09-17T07:55:46.069+0000] {subprocess.py:93} INFO - The `data-paths` config has been renamed to `seed-paths`. Please update your
+[2026-09-17T07:55:46.070+0000] {subprocess.py:93} INFO - `dbt_project.yml` configuration to reflect this change.
+[2026-09-17T07:55:46.438+0000] {subprocess.py:93} INFO - [0m07:55:46  Registered adapter: postgres=1.11.0
+[2026-09-17T07:55:47.140+0000] {subprocess.py:93} INFO - [0m07:55:47  Found 3 models, 1 seed, 477 macros
+[2026-09-17T07:55:47.144+0000] {subprocess.py:93} INFO - [0m07:55:47
+[2026-09-17T07:55:47.144+0000] {subprocess.py:93} INFO - [0m07:55:47  Concurrency: 1 threads (target='dev')
+[2026-09-17T07:55:47.145+0000] {subprocess.py:93} INFO - [0m07:55:47
+[2026-09-17T07:55:47.299+0000] {subprocess.py:93} INFO - [0m07:55:47  1 of 2 START sql view model public.stg_transactions ............................ [RUN]
+[2026-09-17T07:55:47.494+0000] {subprocess.py:93} INFO - [0m07:55:47  1 of 2 OK created sql view model public.stg_transactions ....................... [[32mCREATE VIEW[0m in 0.19s]
+[2026-09-17T07:55:47.500+0000] {subprocess.py:93} INFO - [0m07:55:47  2 of 2 START sql table model public.mart_daily_sales ........................... [RUN]
+[2026-09-17T07:55:47.644+0000] {subprocess.py:93} INFO - [0m07:55:47  2 of 2 OK created sql table model public.mart_daily_sales ...................... [[32mSELECT 2[0m in 0.14s]
+[2026-09-17T07:55:47.684+0000] {subprocess.py:93} INFO - [0m07:55:47
+[2026-09-17T07:55:47.686+0000] {subprocess.py:93} INFO - [0m07:55:47  Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.54 seconds (0.54s).
+[2026-09-17T07:55:47.822+0000] {subprocess.py:93} INFO - [0m07:55:47
+[2026-09-17T07:55:47.823+0000] {subprocess.py:93} INFO - [0m07:55:47  [32mCompleted successfully[0m
+[2026-09-17T07:55:47.824+0000] {subprocess.py:93} INFO - [0m07:55:47
+[2026-09-17T07:55:47.825+0000] {subprocess.py:93} INFO - [0m07:55:47  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=2
+[2026-09-17T07:55:47.831+0000] {subprocess.py:93} INFO - [0m07:55:47  [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+[2026-09-17T07:55:47.832+0000] {subprocess.py:93} INFO - Summary of encountered deprecations:
+[2026-09-17T07:55:47.832+0000] {subprocess.py:93} INFO - - ConfigSourcePathDeprecation: 1 occurrence
+[2026-09-17T07:55:47.832+0000] {subprocess.py:93} INFO - - ConfigDataPathDeprecation: 1 occurrence
+[2026-09-17T07:55:47.833+0000] {subprocess.py:93} INFO - To see all deprecation instances instead of just the first occurrence of each,
+[2026-09-17T07:55:47.833+0000] {subprocess.py:93} INFO - run command again with the `--show-all-deprecations` flag. You may also need to
+[2026-09-17T07:55:47.833+0000] {subprocess.py:93} INFO - run with `--no-partial-parse` as some deprecations are only encountered during
+[2026-09-17T07:55:47.834+0000] {subprocess.py:93} INFO - parsing.
+[2026-09-17T07:55:49.317+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-09-17T07:55:49.349+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-09-17T07:55:49.349+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dbt_retail_pipeline, task_id=dbt_run, run_id=manual__2026-09-17T07:55:33.507876+00:00, execution_date=20260917T075533, start_date=20260917T075542, end_date=20260917T075549
+[2026-09-17T07:55:49.394+0000] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2026-09-17T07:55:49.414+0000] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-17T07:55:49.416+0000] {local_task_job_runner.py:240} INFO - ::endgroup::

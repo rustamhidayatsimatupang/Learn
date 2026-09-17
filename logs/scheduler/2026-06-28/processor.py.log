@@ -1,0 +1,67 @@
+[2026-06-28T13:01:43.414+0000] {processor.py:186} INFO - Started process (PID=949) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:01:43.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:01:43.417+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:43.416+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:01:43.429+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:01:43.525+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:43.525+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:01:43.537+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:43.536+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:01:43.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.146 seconds
+[2026-06-28T13:02:13.680+0000] {processor.py:186} INFO - Started process (PID=957) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:02:13.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:02:13.683+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:13.682+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:02:13.696+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:02:13.723+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:13.723+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:02:13.736+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:13.736+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:02:13.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.077 seconds
+[2026-06-28T13:02:43.979+0000] {processor.py:186} INFO - Started process (PID=965) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:02:43.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:02:43.982+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:43.982+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:02:43.998+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:02:44.013+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:44.013+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:02:44.030+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:44.030+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:02:44.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.079 seconds
+[2026-06-28T13:03:14.295+0000] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:03:14.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:03:14.298+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:14.298+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:03:14.314+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:03:14.427+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:14.427+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:03:14.439+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:14.438+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:03:14.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.171 seconds
+[2026-06-28T13:03:44.517+0000] {processor.py:186} INFO - Started process (PID=980) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:03:44.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:03:44.520+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:44.520+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:03:44.534+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:03:44.560+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:44.560+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:03:44.572+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:44.572+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:03:44.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.078 seconds
+[2026-06-28T13:04:14.828+0000] {processor.py:186} INFO - Started process (PID=988) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:04:14.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:04:14.832+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:14.831+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:04:14.846+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:04:14.863+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:14.863+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:04:14.896+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:14.895+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:04:14.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.104 seconds
+[2026-06-28T13:04:45.156+0000] {processor.py:186} INFO - Started process (PID=996) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:04:45.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:04:45.159+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:45.159+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:04:45.171+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:04:45.280+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:45.280+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:04:45.295+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:45.295+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:04:45.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.166 seconds
+[2026-06-28T13:05:03.301+0000] {processor.py:186} INFO - Started process (PID=1004) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:05:03.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:05:03.304+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.304+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:05:03.317+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart_testing' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:05:03.420+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.419+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dag_isi_data_mart_testing
+[2026-06-28T13:05:03.430+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.430+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dag_isi_data_mart_testing
+[2026-06-28T13:05:03.438+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.438+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dag_isi_data_mart_testing
+[2026-06-28T13:05:03.439+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.439+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:05:03.453+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.452+0000] {dag.py:3234} INFO - Creating ORM DAG for dag_isi_data_mart_testing
+[2026-06-28T13:05:03.453+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:03.453+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart_testing to None, run_after=None
+[2026-06-28T13:05:03.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.178 seconds
+[2026-06-28T13:05:33.705+0000] {processor.py:186} INFO - Started process (PID=1012) to work on /opt/airflow/dags/processor.py
+[2026-06-28T13:05:33.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/processor.py for tasks to queue
+[2026-06-28T13:05:33.708+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:33.708+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/processor.py
+[2026-06-28T13:05:33.722+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart_testing' retrieved from /opt/airflow/dags/processor.py
+[2026-06-28T13:05:33.755+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:33.755+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:05:33.771+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:33.770+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart_testing to None, run_after=None
+[2026-06-28T13:05:33.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/processor.py took 0.090 seconds

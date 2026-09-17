@@ -1,0 +1,277 @@
+[2026-06-28T12:46:41.740+0000] {processor.py:186} INFO - Started process (PID=741) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:46:41.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:46:41.747+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:41.745+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:46:41.807+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:46:42.373+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:42.372+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:dag_isi_data_mart
+[2026-06-28T12:46:42.382+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:42.381+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:dag_isi_data_mart
+[2026-06-28T12:46:42.388+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:42.388+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:dag_isi_data_mart
+[2026-06-28T12:46:42.388+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:42.388+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:46:42.401+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:42.401+0000] {dag.py:3234} INFO - Creating ORM DAG for dag_isi_data_mart
+[2026-06-28T12:46:42.401+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:46:42.401+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:46:42.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.687 seconds
+[2026-06-28T12:47:12.834+0000] {processor.py:186} INFO - Started process (PID=748) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:47:12.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:47:12.837+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:47:12.836+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:47:12.849+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:47:12.877+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:47:12.876+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:47:12.903+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:47:12.902+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:47:12.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.088 seconds
+[2026-06-28T12:47:43.053+0000] {processor.py:186} INFO - Started process (PID=755) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:47:43.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:47:43.055+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:47:43.055+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:47:43.068+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:47:43.095+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:47:43.095+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:47:43.107+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:47:43.107+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:47:43.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.077 seconds
+[2026-06-28T12:48:13.382+0000] {processor.py:186} INFO - Started process (PID=762) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:48:13.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:48:13.386+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:48:13.386+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:48:13.404+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:48:13.451+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:48:13.450+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:48:13.478+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:48:13.478+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:48:13.509+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.136 seconds
+[2026-06-28T12:48:43.630+0000] {processor.py:186} INFO - Started process (PID=768) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:48:43.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:48:43.634+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:48:43.633+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:48:43.649+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:48:43.682+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:48:43.681+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:48:43.695+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:48:43.695+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:48:43.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.091 seconds
+[2026-06-28T12:49:13.862+0000] {processor.py:186} INFO - Started process (PID=775) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:49:13.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:49:13.865+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:49:13.865+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:49:13.889+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:49:13.916+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:49:13.916+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:49:13.929+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:49:13.929+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:49:13.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.087 seconds
+[2026-06-28T12:49:44.158+0000] {processor.py:186} INFO - Started process (PID=782) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:49:44.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:49:44.161+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:49:44.161+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:49:44.175+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:49:44.201+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:49:44.201+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:49:44.214+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:49:44.214+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:49:44.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.077 seconds
+[2026-06-28T12:50:14.387+0000] {processor.py:186} INFO - Started process (PID=789) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:50:14.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:50:14.390+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:50:14.390+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:50:14.403+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:50:14.431+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:50:14.430+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:50:14.444+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:50:14.443+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:50:14.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.080 seconds
+[2026-06-28T12:50:44.670+0000] {processor.py:186} INFO - Started process (PID=796) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:50:44.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:50:44.675+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:50:44.674+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:50:44.690+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:50:44.726+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:50:44.726+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:50:44.744+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:50:44.744+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:50:44.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.105 seconds
+[2026-06-28T12:51:14.901+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:51:14.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:51:14.904+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:51:14.904+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:51:14.917+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:51:14.945+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:51:14.945+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:51:14.959+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:51:14.959+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:51:14.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.082 seconds
+[2026-06-28T12:51:45.255+0000] {processor.py:186} INFO - Started process (PID=809) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:51:45.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:51:45.257+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:51:45.257+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:51:45.271+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:51:45.298+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:51:45.298+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:51:45.312+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:51:45.312+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:51:45.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.078 seconds
+[2026-06-28T12:52:15.499+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:52:15.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:52:15.503+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:52:15.502+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:52:15.517+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:52:15.550+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:52:15.549+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:52:15.564+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:52:15.563+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:52:15.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.090 seconds
+[2026-06-28T12:52:45.766+0000] {processor.py:186} INFO - Started process (PID=823) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:52:45.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:52:45.769+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:52:45.769+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:52:45.782+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:52:45.808+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:52:45.807+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:52:45.821+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:52:45.821+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:52:45.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.081 seconds
+[2026-06-28T12:53:16.028+0000] {processor.py:186} INFO - Started process (PID=830) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:53:16.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:53:16.032+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:53:16.031+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:53:16.047+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:53:16.074+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:53:16.073+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:53:16.089+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:53:16.089+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:53:16.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.083 seconds
+[2026-06-28T12:53:46.278+0000] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:53:46.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:53:46.282+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:53:46.282+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:53:46.296+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:53:46.321+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:53:46.321+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:53:46.333+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:53:46.333+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:53:46.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.077 seconds
+[2026-06-28T12:54:16.536+0000] {processor.py:186} INFO - Started process (PID=844) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:54:16.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:54:16.538+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:54:16.538+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:54:16.554+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:54:16.583+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:54:16.582+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:54:16.597+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:54:16.597+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:54:16.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.089 seconds
+[2026-06-28T12:54:46.773+0000] {processor.py:186} INFO - Started process (PID=850) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:54:46.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:54:46.776+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:54:46.776+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:54:46.789+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:54:46.817+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:54:46.817+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:54:46.830+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:54:46.830+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:54:46.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.077 seconds
+[2026-06-28T12:55:17.045+0000] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:55:17.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:55:17.048+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:55:17.048+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:55:17.062+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:55:17.090+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:55:17.090+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:55:17.103+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:55:17.103+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:55:17.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.078 seconds
+[2026-06-28T12:55:47.276+0000] {processor.py:186} INFO - Started process (PID=864) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:55:47.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:55:47.280+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:55:47.279+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:55:47.296+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:55:47.328+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:55:47.328+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:55:47.347+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:55:47.347+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:55:47.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.099 seconds
+[2026-06-28T12:56:17.593+0000] {processor.py:186} INFO - Started process (PID=871) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:56:17.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:56:17.596+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:56:17.596+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:56:17.611+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:56:17.643+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:56:17.643+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:56:17.658+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:56:17.658+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:56:17.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.091 seconds
+[2026-06-28T12:56:47.875+0000] {processor.py:186} INFO - Started process (PID=878) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:56:47.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:56:47.880+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:56:47.879+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:56:47.895+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:56:47.924+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:56:47.924+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:56:47.937+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:56:47.937+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:56:47.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.086 seconds
+[2026-06-28T12:57:18.122+0000] {processor.py:186} INFO - Started process (PID=885) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:57:18.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:57:18.126+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:57:18.126+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:57:18.144+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:57:18.182+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:57:18.181+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:57:18.199+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:57:18.198+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:57:18.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.108 seconds
+[2026-06-28T12:57:48.417+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:57:48.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:57:48.420+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:57:48.420+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:57:48.433+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:57:48.461+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:57:48.460+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:57:48.475+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:57:48.474+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:57:48.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.082 seconds
+[2026-06-28T12:58:18.692+0000] {processor.py:186} INFO - Started process (PID=899) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:58:18.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:58:18.696+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:58:18.696+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:58:18.710+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:58:18.740+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:58:18.739+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:58:18.757+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:58:18.757+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:58:18.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.116 seconds
+[2026-06-28T12:58:48.920+0000] {processor.py:186} INFO - Started process (PID=906) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:58:48.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:58:48.923+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:58:48.922+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:58:48.935+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:58:48.963+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:58:48.962+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:58:48.976+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:58:48.976+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:58:48.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.078 seconds
+[2026-06-28T12:59:19.217+0000] {processor.py:186} INFO - Started process (PID=913) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:59:19.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:59:19.220+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:59:19.220+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:59:19.232+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:59:19.259+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:59:19.259+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:59:19.273+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:59:19.273+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:59:19.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.079 seconds
+[2026-06-28T12:59:49.437+0000] {processor.py:186} INFO - Started process (PID=921) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:59:49.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T12:59:49.441+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:59:49.441+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:59:49.459+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T12:59:49.494+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:59:49.493+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T12:59:49.510+0000] {logging_mixin.py:190} INFO - [2026-06-28T12:59:49.509+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T12:59:49.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.102 seconds
+[2026-06-28T13:00:19.721+0000] {processor.py:186} INFO - Started process (PID=928) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:00:19.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:00:19.725+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:00:19.725+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:00:19.741+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:00:19.771+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:00:19.771+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:00:19.785+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:00:19.784+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:00:19.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.087 seconds
+[2026-06-28T13:00:49.963+0000] {processor.py:186} INFO - Started process (PID=935) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:00:49.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:00:49.967+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:00:49.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:00:49.981+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:00:50.009+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:00:50.009+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:00:50.023+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:00:50.022+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:00:50.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.083 seconds
+[2026-06-28T13:01:20.224+0000] {processor.py:186} INFO - Started process (PID=942) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:01:20.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:01:20.227+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:20.226+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:01:20.241+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:01:20.269+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:20.269+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:01:20.282+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:20.282+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:01:20.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.081 seconds
+[2026-06-28T13:01:50.518+0000] {processor.py:186} INFO - Started process (PID=950) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:01:50.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:01:50.521+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:50.521+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:01:50.534+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:01:50.548+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:50.547+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:01:50.564+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:01:50.564+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:01:50.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.072 seconds
+[2026-06-28T13:02:20.804+0000] {processor.py:186} INFO - Started process (PID=958) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:02:20.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:02:20.808+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:20.807+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:02:20.821+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:02:20.930+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:20.930+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:02:20.944+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:20.944+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:02:20.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.172 seconds
+[2026-06-28T13:02:51.043+0000] {processor.py:186} INFO - Started process (PID=966) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:02:51.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:02:51.048+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:51.047+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:02:51.064+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:02:51.092+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:51.092+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:02:51.106+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:02:51.106+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:02:51.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.091 seconds
+[2026-06-28T13:03:21.354+0000] {processor.py:186} INFO - Started process (PID=973) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:03:21.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:03:21.357+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:21.356+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:03:21.369+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:03:21.383+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:21.383+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:03:21.396+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:21.396+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:03:21.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.063 seconds
+[2026-06-28T13:03:51.636+0000] {processor.py:186} INFO - Started process (PID=981) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:03:51.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:03:51.639+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:51.639+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:03:51.651+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:03:51.750+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:51.750+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:03:51.761+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:03:51.761+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:03:51.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.149 seconds
+[2026-06-28T13:04:21.884+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:04:21.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:04:21.888+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:21.887+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:04:21.916+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:04:21.944+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:21.944+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:04:21.959+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:21.959+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:04:21.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.100 seconds
+[2026-06-28T13:04:52.219+0000] {processor.py:186} INFO - Started process (PID=997) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:04:52.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:04:52.222+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:52.222+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:04:52.237+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:04:52.250+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:52.250+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:04:52.265+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:04:52.265+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:04:52.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.073 seconds
+[2026-06-28T13:05:22.531+0000] {processor.py:186} INFO - Started process (PID=1005) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:05:22.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:05:22.534+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:22.534+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:05:22.547+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:05:22.647+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:22.647+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:05:22.657+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:22.657+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:05:22.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.151 seconds
+[2026-06-28T13:05:52.926+0000] {processor.py:186} INFO - Started process (PID=1013) to work on /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:05:52.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_to_datamart.py for tasks to queue
+[2026-06-28T13:05:52.930+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:52.929+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:05:52.944+0000] {processor.py:925} INFO - DAG(s) 'dag_isi_data_mart' retrieved from /opt/airflow/dags/etl_to_datamart.py
+[2026-06-28T13:05:52.971+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:52.971+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2026-06-28T13:05:52.986+0000] {logging_mixin.py:190} INFO - [2026-06-28T13:05:52.986+0000] {dag.py:4138} INFO - Setting next_dagrun for dag_isi_data_mart to None, run_after=None
+[2026-06-28T13:05:53.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_to_datamart.py took 0.086 seconds
